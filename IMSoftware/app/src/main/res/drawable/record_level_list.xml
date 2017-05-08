@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    	<item android:drawable="@drawable/voicesearch_feedback001"  android:minLevel="0" android:maxLevel="35"/>
+        <item android:drawable="@drawable/voicesearch_feedback002"  android:minLevel="36" android:maxLevel="40"/>
+        <item android:drawable="@drawable/voicesearch_feedback003"  android:minLevel="41" android:maxLevel="45"/>
+        <item android:drawable="@drawable/voicesearch_feedback004"  android:minLevel="46" android:maxLevel="50"/>
+        <item android:drawable="@drawable/voicesearch_feedback005"  android:minLevel="51" android:maxLevel="55"/>
+        <item android:drawable="@drawable/voicesearch_feedback006"  android:minLevel="56" android:maxLevel="60"/>
+        <item android:drawable="@drawable/voicesearch_feedback007"  android:minLevel="61" android:maxLevel="80"/>
+</level-list>
+
+

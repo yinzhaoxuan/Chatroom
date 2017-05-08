@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:stretchColumns="1"
+	android:background="@drawable/loginbg"
+	android:id="@+id/loginMain"
+	>
+	<TableRow>
+		<ImageView android:id="@+id/image" 
+			 android:layout_span="2"
+			 android:layout_height="52dp"
+			 android:layout_width="52dp"
+			 android:gravity="center_horizontal"  
+			 android:padding="3dip" />
+	</TableRow>
+	<TableRow>
+		<TextView 
+			android:text="@string/view_ip" 
+			android:textColor="#000000"
+			android:textSize="15sp"
+			android:textStyle="bold" 
+			android:gravity="right" 
+			android:padding="8dip"
+			/>
+		<EditText android:id="@+id/ip"
+			android:padding="3dip" 
+			android:scrollHorizontally="true" />
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="@string/view_port" 
+			android:textColor="#000000"
+			android:textSize="15sp"
+			android:textStyle="bold" 
+			android:gravity="right" 
+			android:padding="8dip" />
+		<EditText android:id="@+id/port" 
+			android:padding="3dip"
+			android:scrollHorizontally="true" />
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="@string/view_name" 
+			android:textColor="#000000"
+			android:textSize="15sp"
+			android:textStyle="bold" 
+			android:gravity="right" 
+			android:padding="8dip" />
+		<Spinner android:id="@+id/name"
+			android:drawSelectorOnTop="false"
+			android:scrollHorizontally="true" 
+			android:textColor="#ffffff"/>
+	</TableRow>
+	
+	<TableRow android:gravity="center">
+		<LinearLayout android:layout_span="2" android:gravity="center" android:padding="8dip" >
+			<Button 
+				android:id="@+id/cancel" 
+				android:text="@string/btn_cancel" 
+				android:layout_width="wrap_content" 
+				android:layout_weight="1"
+				android:layout_marginRight="5dp"
+				android:layout_height="fill_parent"
+				android:textSize="15sp"
+				android:gravity="center"
+				android:onClick="endLogin"
+				android:background="@drawable/btn_style_white"
+				/>
+			<Button 
+				android:id="@+id/login" 
+				android:text="@string/btn_login" 
+				android:layout_width="wrap_content" 
+				android:layout_weight="1" 
+				android:layout_height="fill_parent"
+				android:textSize="15sp"
+				android:gravity="center"
+				android:onClick="startLogin"
+				android:background="@drawable/btn_style_green"
+				/>
+		</LinearLayout>
+	</TableRow>
+</TableLayout> 
+

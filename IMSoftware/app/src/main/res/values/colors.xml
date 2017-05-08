@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <drawable name="white">#00000000</drawable>
+    <drawable name="yellow">#fbfe81</drawable>
+    <drawable name="btncolor">#1a1a3c</drawable>
+    <color name="sc_transparent">#00ffffff</color>
+</resources>

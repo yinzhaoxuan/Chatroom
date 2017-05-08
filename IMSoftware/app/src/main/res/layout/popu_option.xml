@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_dialog" >
+    >
+    
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent" 
+    android:text="@string/btn_login"
+    android:onClick="userLoginOrRegister"
+    android:id="@+id/user_login"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/tv_operate_bg"
+    android:textSize="18sp"
+	android:padding="14dp"
+    android:layout_gravity="center"
+    android:focusable="true"
+    android:clickable="true"
+  />
+    <TextView
+  	android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@drawable/shape_dialog"
+    />
+  <TextView
+  	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:text="@string/btn_register"
+    android:id="@+id/user_register"
+    android:onClick="userLoginOrRegister"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/tv_operate_bg"
+    android:textSize="18sp"
+	android:padding="14dp"
+    android:focusable="true"
+    android:clickable="true"
+  />
+  
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/exit_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/shape_dialog" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="语音发送中......"
+            android:padding="5dp"
+            android:textColor="#ffffffff"
+            android:gravity="center"
+            android:id="@+id/tv_send_record"
+            />
+    </LinearLayout>

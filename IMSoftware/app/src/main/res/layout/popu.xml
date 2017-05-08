@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/shape_dialog"
+    >
+<Button 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:text="@string/btn_camera"
+    android:id="@+id/camara"
+    android:textSize="18sp"
+    android:textColor="#fff"
+    android:background="@drawable/btn_style_green"
+    />
+<Button 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+   	android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="8dp"
+    android:text="@string/btn_photo"
+    android:id="@+id/photo"
+    android:textSize="18sp"
+    android:textColor="#fff"
+    android:background="@drawable/btn_style_green"
+    />
+</LinearLayout>

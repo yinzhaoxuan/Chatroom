@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="popu_animation">
+		<item name="android:windowEnterAnimation">@anim/popu_enter</item>
+		<item name="android:windowExitAnimation">@anim/popu_out</item>
+	</style>
+</resources>

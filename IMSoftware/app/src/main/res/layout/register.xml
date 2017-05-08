@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:stretchColumns="1"
+	android:background="@drawable/loginbg"
+	android:id="@+id/regisMain"
+	>
+	<TableRow>
+		<TextView android:text="@string/view_ip" android:textColor="#000000"
+			android:textSize="15sp"
+			android:textStyle="bold" android:gravity="right" android:padding="8dip"
+			android:id="@+id/view_ip"/>
+		<EditText android:id="@+id/ip"
+			android:text="112.124.65.168"
+			android:padding="3dip" android:scrollHorizontally="true" />
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="@string/view_port" android:textColor="#000000"
+			android:textSize="15sp"
+			android:textStyle="bold" android:gravity="right" android:padding="8dip" />
+		<EditText android:id="@+id/port"
+			android:text="1234" android:padding="3dip"
+			android:scrollHorizontally="true" />
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="@string/view_name" android:textColor="#000000"
+			android:textSize="15sp"
+			android:textStyle="bold" android:gravity="right" android:padding="8dip" />
+		<EditText android:id="@+id/name"
+			android:padding="3dip"
+			android:drawSelectorOnTop="false"
+			android:scrollHorizontally="true" />
+	</TableRow>
+	
+	<TableRow>
+		<ImageView android:id="@+id/image"
+			 android:layout_height="52dp"
+			 android:layout_width="52dp"
+			 android:gravity="center" android:padding="3dip" />
+		<Button android:id="@+id/upload" android:padding="3dip"
+			 android:text="@string/btn_selimage"  android:onClick="showPopuWindow"
+			 android:textColor="#ffffff"
+			 android:textSize="15sp" android:gravity="center"  android:background="@drawable/btn_style_green"
+			 android:scrollHorizontally="true" />
+	</TableRow>
+	<TableRow android:gravity="center">
+		<LinearLayout android:layout_span="2" android:gravity="center">
+			<Button 
+				android:id="@+id/cancel" 
+				android:text="@string/btn_cancel" 
+				android:layout_width="wrap_content" 
+				android:layout_marginRight="5dp"
+				android:layout_weight="1" 
+				android:layout_height="fill_parent"
+				android:textSize="15sp"
+				android:gravity="center"
+				android:onClick="endRegister"
+				android:background="@drawable/btn_style_white"
+				/>
+			<Button 
+				android:id="@+id/login" 
+				android:text="@string/btn_register" 
+				android:layout_width="wrap_content" 
+				android:layout_weight="1" 
+				android:layout_height="fill_parent"
+				android:textSize="15sp"
+				android:gravity="center"
+				android:background="@drawable/btn_style_white"
+				android:onClick="startRegister"
+				/>
+		</LinearLayout>
+	</TableRow>
+</TableLayout> 
+
